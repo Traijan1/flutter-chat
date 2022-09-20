@@ -22,5 +22,5 @@ Which is self hosted on my server at home.
 <br>
 
 ## What will never be implemented?
-- [ ] Creating rooms in App (No Admins)
-- [ ] See when someone is writing a message
+- Creating rooms in App (No Admins)
+- See when someone is writing a message
