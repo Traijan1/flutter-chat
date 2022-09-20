@@ -1,0 +1,34 @@
+{
+    "projectId": "632224e4e3edf65c23b2",
+    "projectName": "FlutterChat",
+    "functions": [
+        {
+            "$id": "6324ab54295842c66ecb",
+            "name": "Catch User Creation",
+            "runtime": "deno-1.21",
+            "path": "functions/Catch User Creation",
+            "entrypoint": "src/mod.ts",
+            "ignore": [],
+            "execute": [
+                "any"
+            ],
+            "events": [
+                "users.*.create"
+            ],
+            "schedule": "",
+            "timeout": 15
+        },
+        {
+            "$id": "6327382b7efddcbcef50",
+            "name": "Add Avatar to User",
+            "runtime": "deno-1.21",
+            "path": "functions/Add Avatar to User",
+            "entrypoint": "src/mod.ts",
+            "ignore": [],
+            "execute": ["any"],
+            "events": ["buckets.632724ad7a044e3c080a.files.*.create"],
+            "schedule": "",
+            "timeout": 15
+        }
+    ]
+}
